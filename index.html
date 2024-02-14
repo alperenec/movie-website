@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Font Awesome -->
+    <!--Font Awesome-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -11,168 +12,56 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!--Custom CSS-->
     <link rel="stylesheet" href="style.css" />
-    <script src="app.js"></script>
-    <title>Movies App</title>
+    <!--Script-->
+    <script src="app.js" defer></script>
+    <title>Moview</title>
   </head>
   <body>
     <header>
-      <h1>Moview</h1>
+      <h1>MOVIEW</h1>
       <form id="form">
         <input
+          autocomplete="off"
           type="text"
           class="search"
-          id="search"
           placeholder="Search movies"
-          autocomplete="off"
+          id="search"
         />
       </form>
     </header>
     <main id="main">
-      <!-- div class movie -->
-      <div class="movie">
+      <!-- <div class="movie">
         <img
           src="https://media.istockphoto.com/vectors/movie-time-vector-illustration-cinema-poster-concept-on-red-round-vector-id911590226?k=20&m=911590226&s=612x612&w=0&h=HlJtSKF-fLsKFy1QJ-EVnxXkktBKNS-3jUQPXsSasYs="
-          alt="Movie Title"
-        />
-        <div class="movie-info">
-          <h3>Movie Title</h3>
-          <span class="orange">9.6</span>
-        </div>
-        <div class="overview">
-          <h3>Movie Title <small>overview</small></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            quisquam saepe adipisci, aspernatur nihil consectetur? Amet modi
-            impedit quas, ducimus est dolore reiciendis molestiae, sapiente rem
-            nisi perferendis possimus quod.
-          </p>
-        </div>
-      </div>
-      <div class="movie">
-        <img
-          src="https://media.istockphoto.com/vectors/movie-time-vector-illustration-cinema-poster-concept-on-red-round-vector-id911590226?k=20&m=911590226&s=612x612&w=0&h=HlJtSKF-fLsKFy1QJ-EVnxXkktBKNS-3jUQPXsSasYs="
-          alt="Movie Title"
+          alt="Movie Image"
         />
         <div class="movie-info">
           <h3>Movie Title</h3>
           <span class="green">9.6</span>
         </div>
         <div class="overview">
-          <h3>Movie Title <small>overview</small></h3>
+          <h3>Overview</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            quisquam saepe adipisci, aspernatur nihil consectetur? Amet modi
-            impedit quas, ducimus est dolore reiciendis molestiae, sapiente rem
-            nisi perferendis possimus quod.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+            expedita tempora illum. Officia in dolore blanditiis aliquid
+            delectus, ratione facere dolorem fugit debitis vitae maiores
+            voluptates molestiae animi praesentium commodi.
           </p>
         </div>
-      </div>
-      <div class="movie">
-        <img
-          src="https://media.istockphoto.com/vectors/movie-time-vector-illustration-cinema-poster-concept-on-red-round-vector-id911590226?k=20&m=911590226&s=612x612&w=0&h=HlJtSKF-fLsKFy1QJ-EVnxXkktBKNS-3jUQPXsSasYs="
-          alt="Movie Title"
-        />
-        <div class="movie-info">
-          <h3>Movie Title</h3>
-          <span class="red">9.6</span>
-        </div>
-        <div class="overview">
-          <h3>Movie Title <small>overview</small></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            quisquam saepe adipisci, aspernatur nihil consectetur? Amet modi
-            impedit quas, ducimus est dolore reiciendis molestiae, sapiente rem
-            nisi perferendis possimus quod.
-          </p>
-        </div>
-      </div>
-      <div class="movie">
-        <img
-          src="https://media.istockphoto.com/vectors/movie-time-vector-illustration-cinema-poster-concept-on-red-round-vector-id911590226?k=20&m=911590226&s=612x612&w=0&h=HlJtSKF-fLsKFy1QJ-EVnxXkktBKNS-3jUQPXsSasYs="
-          alt="Movie Title"
-        />
-        <div class="movie-info">
-          <h3>Movie Title</h3>
-          <span class="green">9.6</span>
-        </div>
-        <div class="overview">
-          <h3>Movie Title <small>overview</small></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            quisquam saepe adipisci, aspernatur nihil consectetur? Amet modi
-            impedit quas, ducimus est dolore reiciendis molestiae, sapiente rem
-            nisi perferendis possimus quod.
-          </p>
-        </div>
-      </div>
-      <div class="movie">
-        <img
-          src="https://media.istockphoto.com/vectors/movie-time-vector-illustration-cinema-poster-concept-on-red-round-vector-id911590226?k=20&m=911590226&s=612x612&w=0&h=HlJtSKF-fLsKFy1QJ-EVnxXkktBKNS-3jUQPXsSasYs="
-          alt="Movie Title"
-        />
-        <div class="movie-info">
-          <h3>Movie Title</h3>
-          <span class="orange">9.6</span>
-        </div>
-        <div class="overview">
-          <h3>Movie Title <small>overview</small></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            quisquam saepe adipisci, aspernatur nihil consectetur? Amet modi
-            impedit quas, ducimus est dolore reiciendis molestiae, sapiente rem
-            nisi perferendis possimus quod.
-          </p>
-        </div>
-      </div>
-      <div class="movie">
-        <img
-          src="https://media.istockphoto.com/vectors/movie-time-vector-illustration-cinema-poster-concept-on-red-round-vector-id911590226?k=20&m=911590226&s=612x612&w=0&h=HlJtSKF-fLsKFy1QJ-EVnxXkktBKNS-3jUQPXsSasYs="
-          alt="Movie Title"
-        />
-        <div class="movie-info">
-          <h3>Movie Title</h3>
-          <span class="green">9.6</span>
-        </div>
-        <div class="overview">
-          <h3>Movie Title <small>overview</small></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            quisquam saepe adipisci, aspernatur nihil consectetur? Amet modi
-            impedit quas, ducimus est dolore reiciendis molestiae, sapiente rem
-            nisi perferendis possimus quod.
-          </p>
-        </div>
-      </div>
-      <div class="movie">
-        <img
-          src="https://media.istockphoto.com/vectors/movie-time-vector-illustration-cinema-poster-concept-on-red-round-vector-id911590226?k=20&m=911590226&s=612x612&w=0&h=HlJtSKF-fLsKFy1QJ-EVnxXkktBKNS-3jUQPXsSasYs="
-          alt="Movie Title"
-        />
-        <div class="movie-info">
-          <h3>Movie Title</h3>
-          <span class="red">9.6</span>
-        </div>
-        <div class="overview">
-          <h3>Movie Title <small>overview</small></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            quisquam saepe adipisci, aspernatur nihil consectetur? Amet modi
-            impedit quas, ducimus est dolore reiciendis molestiae, sapiente rem
-            nisi perferendis possimus quod.
-          </p>
-        </div>
-      </div>
+      </div> -->
     </main>
+
     <footer>
-      <h3>Moview</h3>
+      <h3>MOVIEW</h3>
       <ul>
-        <li><a href="#">Koşullar ve Gizlilik</a></li>
-        <li><a href="#">Hakkımızda</a></li>
-        <li><a href="#">Geri Biliridme Bulun</a></li>
-        <li><a href="#">Çerez Politikası</a></li>
+        <li><a href="#">Koşullar ve Gizlilik Bildirimi</a></li>
+        <li><a href="#">Geri bildirimde bulunun</a></li>
+        <li><a href="#">Yardım</a></li>
+        <li><a href="#">Çerez Bildirimi</a></li>
       </ul>
-      <small>©2024 - AOT</small>
+      <small>© 2022 - AOT</small>
     </footer>
   </body>
 </html>
